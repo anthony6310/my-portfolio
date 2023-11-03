@@ -1,0 +1,9 @@
+.content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #144714;
+    padding: 30px;
+    border-radius: 15px;
+}

@@ -1,12 +1,31 @@
 import React from 'react';
-import "./Header_style.css";
+import TextColor from "../TextColor";
+import "./HeaderStyles.css";
+import { green, lightBlue, yellow, pink, gray } from "../../constants/color";
 
 function Header(props) {
-
     return (
-        <div>
-            <h1> 
-                <span className="pink-text">&lt;</span>{props.title} {props.role && <span>role="{props.role}"</span>} {props.action && <span>action=&#123;{props.role}&#125;</span>} /&gt;
+        <div className={props.styleClass}>
+            <h1>
+                <TextColor color={gray} text="&lt;" />
+                <TextColor color={green} text={props.title + " "} />
+                {props.role && 
+                    <span>
+                        <TextColor color={lightBlue} text="role" />
+                        =
+                        <TextColor color={yellow} text={props.role} />
+                    </span>
+                }
+                {props.action && 
+                    <span>
+                        <TextColor color={lightBlue} text="action" />
+                        =
+                        <TextColor color={pink} text="{" />
+                        <TextColor color={yellow} text={props.action} />
+                        <TextColor color={pink} text="} " />
+                    </span>
+                }
+                <TextColor color={gray} text="/&gt;" />
             </h1>
         </div>
     );
