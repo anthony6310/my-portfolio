@@ -14,7 +14,7 @@ function ContentSection(props) {
                 <p className="content">
                     {props.content}
                 </p>
-                
+                <SkillsContainer skills={props.skills} compact={props.compact} />
             </div>
         </div>
     );

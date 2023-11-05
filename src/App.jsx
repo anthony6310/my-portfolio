@@ -1,28 +1,88 @@
 import React from "react";
+
 import Header from "./components/Header/Header";
 import SkillsContainer from "./components/SkillsContainer/SkillsContainer";
 import ContentSection from "./components/ContentSection/ContentSection";
 import Footer from "./components/Footer/Footer";
 
+import headshot from "./assets/Headshot.png";
 import { UHSHardware, BenaVest, Portfolio } from "./constants/projects";
 import { aboutMe, uhsHardware, benaVest, portfolio } from "./constants/content";
-import headshot from "./assets/Headshot.png";
+import {
+  HTMLBadge,
+  CSSBadge,
+  JavaScriptBadge,
+  ReactBadge,
+  NodeBadge,
+  JQueryBadge,
+  JSONBadge,
+  ShopifyBadge,
+  WordpressBadge,
+  TerminalBadge,
+  GitBadge,
+  AccessibilityBadge,
+  ResponsiveBadge,
+  PerformanceBadge
+}
+  from "./constants/skills";
 
 function App() {
-  const {title: heroTitle, role: heroRole, action: heroAction} = {title: "AnthonyPumar", role: '"Web Developer" ', action: "solveProblems"};
+  const { title: heroTitle, role: heroRole, action: heroAction } = { title: "AnthonyPumar", role: '"Web Developer" ', action: "solveProblems" };
+
+  const uhsSkills = [
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    JQueryBadge,
+    JSONBadge,
+    ShopifyBadge
+  ];
+
+  const benavestSkills = [
+    HTMLBadge,
+    CSSBadge,
+    WordpressBadge
+  ];
+
+  const portfolioSkills = [
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    ReactBadge,
+    NodeBadge,
+    TerminalBadge,
+    GitBadge
+  ];
+
+  const allSkills = [
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    ReactBadge,
+    NodeBadge,
+    JQueryBadge,
+    JSONBadge,
+    ShopifyBadge,
+    WordpressBadge,
+    TerminalBadge,
+    GitBadge,
+    AccessibilityBadge,
+    ResponsiveBadge,
+    PerformanceBadge
+  ];
 
   return (
     <div>
       <Header title={heroTitle} role={heroRole} action={heroAction} styleClass="hero-header" />
       <Header title="About Me" styleClass="sub-header" />
-      <ContentSection title="Anthony" content={aboutMe} image={headshot} />
+      <ContentSection title="Anthony" content={aboutMe} image={headshot} skills={[]} compact={false} />
       <Header title="Skills" styleClass="sub-header" />
-      <SkillsContainer />
+      <SkillsContainer skills={allSkills} />
       <Header title="Contributions" styleClass="sub-header" />
-      <ContentSection title="UHS Hardware" date="May 2022 - Present" content={uhsHardware} image={UHSHardware} />
-      <ContentSection title="BenaVest" date="April 2020 - May 2022" content={benaVest} image={BenaVest} />
+      <ContentSection title="UHS Hardware" date="May 2022 - Present" content={uhsHardware} image={UHSHardware} skills={uhsSkills} compact={true} />
+      <ContentSection title="BenaVest" date="April 2020 - May 2022" content={benaVest} image={BenaVest} skills={benavestSkills} compact={true} />
       <Header title="Projects" styleClass="sub-header" />
-      <ContentSection title="Portfolio" content={portfolio} image={Portfolio} />
+      <ContentSection title="Portfolio" content={portfolio} image={Portfolio} skills={portfolioSkills} compact={true} />
       <Header title="Contact Me" styleClass="sub-header" />
       <Footer />
     </div>

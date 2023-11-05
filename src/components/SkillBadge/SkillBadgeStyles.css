@@ -9,8 +9,22 @@
     border-radius: 30px;
 }
 
+.skill-badge__container--compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
 .skill-badge__image {
     max-width: 200px;
+}
+
+.skill-badge__image--compact {
+    max-width: 100px;
 }
 
 .skill-badge__title {

@@ -1,75 +1,102 @@
-import HTMLBadge from "../assets/HTML.png";
-import CSSBadge from "../assets/CSS.png";
-import JavaScriptBadge from "../assets/JavaScript.png";
-import ReactBadge from "../assets/React.png";
-import NodeBadge from "../assets/Node.png";
-import JQueryBadge from "../assets/JQuery.png";
-import JSONBadge from "../assets/JSON.png";
-import ShopifyBadge from "../assets/Shopify.png";
-import WordpressBadge from "../assets/WordPress.png";
-import TerminalBadge from "../assets/Terminal.png";
-import GitBadge from "../assets/Git.png";
-import AccessabilityBadge from "../assets/Accessibility.png";
-import ResponsiveBadge from "../assets/Responsive.png";
-import PerformanceBadge from "../assets/Performance.png";
+import HTML from "../assets/HTML.png";
+import CSS from "../assets/CSS.png";
+import JavaScript from "../assets/JavaScript.png";
+import React from "../assets/React.png";
+import Node from "../assets/Node.png";
+import JQuery from "../assets/JQuery.png";
+import JSON from "../assets/JSON.png";
+import Shopify from "../assets/Shopify.png";
+import Wordpress from "../assets/WordPress.png";
+import Terminal from "../assets/Terminal.png";
+import Git from "../assets/Git.png";
+import Accessability from "../assets/Accessibility.png";
+import Responsive from "../assets/Responsive.png";
+import Performance from "../assets/Performance.png";
 
-const skills = [
-    {
-        image: HTMLBadge,
-        title: "HTML"
-    },
-    {
-        image: CSSBadge,
-        title: "CSS"
-    },
-    {
-        image: JavaScriptBadge,
-        title: "JavaScript"
-    },
-    {
-        image: ReactBadge,
-        title: "React"
-    },
-    {
-        image: NodeBadge,
-        title: "Node"
-    },
-    {
-        image: JQueryBadge,
-        title: "JQuery"
-    },
-    {
-        image: JSONBadge,
-        title: "JSON"
-    },
-    {
-        image: ShopifyBadge,
-        title: "Shopify"
-    },
-    {
-        image: WordpressBadge,
-        title: "WordPress"
-    },
-    {
-        image: TerminalBadge,
-        title: "Terminal"
-    },
-    {
-        image: GitBadge,
-        title: "Git"
-    },
-    {
-        image: AccessabilityBadge,
-        title: "Accessibility"
-    },
-    {
-        image: ResponsiveBadge,
-        title: "Responsive Design"
-    },
-    {
-        image: PerformanceBadge,
-        title: "Performance"
-    }
-];
+const HTMLBadge = {
+    image: HTML,
+    title: "HTML"
+};
 
-export default skills;
+const CSSBadge = {
+    image: CSS,
+    title: "CSS"
+};
+
+const JavaScriptBadge = {
+    image: JavaScript,
+    title: "JavaScript"
+};
+
+const ReactBadge = {
+    image: React,
+    title: "React"
+};
+
+const NodeBadge = {
+    image: Node,
+    title: "Node"
+};
+
+const JQueryBadge = {
+    image: JQuery,
+    title: "JQuery"
+};
+
+const JSONBadge = {
+    image: JSON,
+    title: "JSON"
+};
+
+const ShopifyBadge = {
+    image: Shopify,
+    title: "Shopify"
+};
+
+const WordpressBadge = {
+    image: Wordpress,
+    title: "WordPress"
+};
+
+const TerminalBadge = {
+    image: Terminal,
+    title: "Terminal"
+};
+
+const GitBadge = {
+    image: Git,
+    title: "Git"
+};
+
+const AccessibilityBadge = {
+    image: Accessability,
+    title: "Accessibility"
+};
+
+const ResponsiveBadge = {
+    image: Responsive,
+    title: "Responsive Design"
+};
+
+const PerformanceBadge = {
+    image: Performance,
+    title: "Performance"
+};
+
+
+export {
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    ReactBadge,
+    NodeBadge,
+    JQueryBadge,
+    JSONBadge,
+    ShopifyBadge,
+    WordpressBadge,
+    TerminalBadge,
+    GitBadge,
+    AccessibilityBadge,
+    ResponsiveBadge,
+    PerformanceBadge
+};

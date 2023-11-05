@@ -1,17 +1,17 @@
 import React from "react";
 import SkillBadge from "../SkillBadge/SkillBadge";
-import skills from "../../constants/skills";
 import "./SkillsContainerStyles.css";
 
-function SkillsContainer() {
+function SkillsContainer(props) {
+    const skillsStyle = props.compact ? "skills-container--compact" : "skills-container";
     
     function handleBadge(skill) {
-        return <SkillBadge image={skill.image} title={skill.title} />;
+        return <SkillBadge image={skill.image} title={skill.title} compact={props.compact} />;
     }
 
     return (
-        <div className="skills-container">
-            {skills.map(handleBadge)}
+        <div className={skillsStyle}>
+            {props.skills.map(handleBadge)}
         </div>
     );
 }
