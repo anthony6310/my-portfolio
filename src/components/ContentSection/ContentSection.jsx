@@ -15,7 +15,7 @@ function ContentSection(props) {
             <div className="content__container">
                 <div className="title__container">
                     <h3 className="content__title">{props.title}</h3>
-                    <p className="content__date">{props.date}</p>
+                    <p>{props.date}</p>
                 </div>
                 <p className="content">
                     {props.content}

@@ -71,8 +71,8 @@ function App() {
     TerminalBadge,
     GitBadge,
     AccessibilityBadge,
-    ResponsiveBadge,
-    PerformanceBadge
+    PerformanceBadge,
+    ResponsiveBadge
   ];
 
   return (
