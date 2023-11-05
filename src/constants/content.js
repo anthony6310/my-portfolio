@@ -9,7 +9,7 @@ const uhsHardware = <div>For nearly two years, my core focus at UHS Hardware has
 const benaVest = <div>For a substantial period, I contributed to the evolution of Benavest.com, working under experienced guidance. My focus was on the website's visual appeal and user experience.
     <br /><br />Crafting the visual identity and refining the user interface, I aimed for an engaging and intuitive design. Collaborating closely, I balanced aesthetics with functionality, resulting in a captivating and user-friendly digital platform that perfectly mirrors Benavest.com's essence.</div>;
 
-const portfolio = <div>Portfolio Throughout the creation of this portfolio website, my commitment aimed at crafting an online platform that embodies my professional journey and skills. 
+const portfolio = <div>Throughout the creation of this portfolio website, my commitment aimed at crafting an online platform that embodies my professional journey and skills. 
     <br /><br />With a dedicated focus on design and user experience, I meticulously curated the visual identity and enhanced the interface to ensure an engaging and intuitive design. This collaborative effort resulted in a user-friendly website authentically representing my portfolio, offering visitors a seamless and captivating experience reflecting my professional essence.</div>;
 
 export { aboutMe, uhsHardware, benaVest, portfolio };

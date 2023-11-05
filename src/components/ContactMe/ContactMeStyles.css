@@ -1,0 +1,20 @@
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.contact-me__button {
+    background-color: #2d7254;
+    padding: 16px 32px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+}

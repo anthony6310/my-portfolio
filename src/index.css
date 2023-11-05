@@ -15,3 +15,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.foot-note {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cec878;
+}

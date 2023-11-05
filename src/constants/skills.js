@@ -5,6 +5,7 @@ import React from "../assets/React.png";
 import Node from "../assets/Node.png";
 import JQuery from "../assets/JQuery.png";
 import JSON from "../assets/JSON.png";
+import Liquid from "../assets/Liquid.png";
 import Shopify from "../assets/Shopify.png";
 import Wordpress from "../assets/WordPress.png";
 import Terminal from "../assets/Terminal.png";
@@ -48,6 +49,11 @@ const JSONBadge = {
     title: "JSON"
 };
 
+const LiquidBadge = {
+    image: Liquid,
+    title: "Liquid"
+};
+
 const ShopifyBadge = {
     image: Shopify,
     title: "Shopify"
@@ -70,17 +76,17 @@ const GitBadge = {
 
 const AccessibilityBadge = {
     image: Accessability,
-    title: "Accessibility"
+    title: "*Accessibility"
 };
 
 const ResponsiveBadge = {
     image: Responsive,
-    title: "Responsive Design"
+    title: "*Responsive Design"
 };
 
 const PerformanceBadge = {
     image: Performance,
-    title: "Performance"
+    title: "*Performance"
 };
 
 
@@ -92,6 +98,7 @@ export {
     NodeBadge,
     JQueryBadge,
     JSONBadge,
+    LiquidBadge,
     ShopifyBadge,
     WordpressBadge,
     TerminalBadge,

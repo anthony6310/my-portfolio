@@ -4,7 +4,7 @@ import "./FooterStyles.css";
 function Footer() {
     return (
         <div className="footer">
-            Coded and designed by Anthony Pumar
+            Code and design by Anthony Pumar
         </div>
     );
 }
