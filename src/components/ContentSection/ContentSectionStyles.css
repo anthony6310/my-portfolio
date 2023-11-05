@@ -1,9 +1,56 @@
+.content-section {
+    position: relative;
+    height: 65vh;
+    width: 100%;
+}
+
+.content__container {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    background-color: #2d7254;
+    padding: 40px;
+    border-radius: 15px;
+}
+
 .content {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+}
+
+.content__title {
+    font-size: 24px;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.content__date {
+    width: fit-content;
+    border-bottom: 4px solid white;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+}
+
+.image__container {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.content__image {
     width: 50%;
-    margin: 0 auto;
-    background-color: #144714;
-    padding: 30px;
+    border: 8px solid white;
     border-radius: 15px;
 }

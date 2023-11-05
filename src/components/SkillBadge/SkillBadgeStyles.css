@@ -1,0 +1,18 @@
+.skill-badge__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin: 15px;
+    background-color: #181a1b;
+    border-radius: 30px;
+}
+
+.skill-badge__image {
+    max-width: 200px;
+}
+
+.skill-badge__title {
+    font-family: 'Source Code Pro', monospace;
+}
