@@ -1,6 +1,7 @@
 import React from "react";
 import "./FooterStyles.css";
 
+// Component that generates a responsive footer section
 function Footer() {
     return (
         <div className="footer">

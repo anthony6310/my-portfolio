@@ -2,7 +2,10 @@ import React from "react";
 import SkillsContainer from "../SkillsContainer/SkillsContainer";
 import "./ContentSectionStyles.css";
 
+// Component that generates a responsive content section for projects
 function ContentSection(props) {
+    
+    // Function to generate links/buttons for the project
     function addButtons(link, index) {
         return <a key={index} className="links__button" href={link.link}>{link.name}</a>;
     }

@@ -3,7 +3,10 @@ import TextColor from "../TextColor";
 import "./HeaderStyles.css";
 import { green, lightBlue, yellow, pink, gray } from "../../constants/color";
 
+// Component generates a header similar to a React component
 function Header(props) {
+
+    // Determine whether to use <h1> or <h2> based on the styleClass prop
     const Tag = props.styleClass === "hero-header" ? 'h1' : 'h2';
 
     return (

@@ -1,3 +1,6 @@
+//Contains all of the objects needed to create each skill badge with Skill Badge component
+//Exports the arrays needed to display respective skills by project
+
 import HTML from "../assets/HTML.png";
 import CSS from "../assets/CSS.png";
 import JavaScript from "../assets/JavaScript.png";

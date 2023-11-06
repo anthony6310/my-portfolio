@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactMeStyles.css";
 
+// ContactMe component representing different contact options
 function ContactMe() {
     return (
         <div className="contact-me">

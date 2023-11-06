@@ -1,3 +1,5 @@
+//Contains the content for the content sections
+
 const aboutMe = <div>Hello, I'm Anthony, a passionate Front-End Developer based in the city of Miami, Florida. Developing elegant and maintainable code is not just a job for me; it's a creative pursuit that I deeply enjoy.
 <br /><br />When I'm not diving into lines of code, I enjoy spending quality time with my family. Whether we're making great food in the kitchen, unwinding with our favorite movies and shows, or exploring the wonderful outings Miami has to offer.
 <br /><br />My dedication in the tech industry lies in producing code that is not only functional but also easy to understand and maintain. I strive to build user-friendly interfaces and applications that merge simplicity with aesthetic appeal, ensuring a delightful experience for users.

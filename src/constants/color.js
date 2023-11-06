@@ -1,3 +1,5 @@
+//Colors to be used throughout project
+
 const green = "#4ec993";
 const lightBlue = "#9cdcfe";
 const yellow = "#CEC878";

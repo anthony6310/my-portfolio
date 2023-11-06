@@ -1,3 +1,4 @@
+//Component to write out the headers more readably
 import React from "react";
 
 function TextColor(props) {
