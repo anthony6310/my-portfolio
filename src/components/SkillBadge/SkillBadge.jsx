@@ -7,7 +7,7 @@ function SkillBadge(props) {
 
     return (
         <div className={containerStyle}>
-            <img className={badgeStyle} src={props.image} />
+            <img alt={props.title} loading="lazy" className={badgeStyle} src={props.image} />
             <p className="skill-badge__title">{props.title}</p>
         </div>
     );

@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -46,7 +46,7 @@
     }
 
     .sub-header {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
@@ -54,29 +54,17 @@
     .hero-header {
         font-size: 12px;
     }
-
-    .sub-header {
-        font-size: 14px;
-    }
 }
 
 @media (min-width: 1200px) {
     .hero-header h1 {
         white-space: nowrap;
     }
-
-    .sub-header {
-        font-size: 20px;
-    }
 }
 
 @media (min-width: 1400px) {
     .hero-header {
         font-size: 18px;
-    }
-
-    .sub-header {
-        font-size: 16px;
     }
 }
 
@@ -86,7 +74,7 @@
     }
 
     .sub-header {
-        font-size: 24px;
+        font-size: 30px;
     }
 }
 

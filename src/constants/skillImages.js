@@ -16,81 +16,106 @@ import Performance from "../assets/Performance.png";
 
 const HTMLBadge = {
     image: HTML,
-    title: "HTML"
+    title: "HTML",
 };
 
 const CSSBadge = {
     image: CSS,
-    title: "CSS"
+    title: "CSS",
 };
 
 const JavaScriptBadge = {
     image: JavaScript,
-    title: "JavaScript"
+    title: "JavaScript",
 };
 
 const ReactBadge = {
     image: React,
-    title: "React"
+    title: "React",
 };
 
 const NodeBadge = {
     image: Node,
-    title: "Node"
+    title: "Node",
 };
 
 const JQueryBadge = {
     image: JQuery,
-    title: "JQuery"
+    title: "JQuery",
 };
 
 const JSONBadge = {
     image: JSON,
-    title: "JSON"
+    title: "JSON",
 };
 
 const LiquidBadge = {
     image: Liquid,
-    title: "Liquid"
+    title: "Liquid",
 };
 
 const ShopifyBadge = {
     image: Shopify,
-    title: "Shopify"
+    title: "Shopify",
 };
 
 const WordpressBadge = {
     image: Wordpress,
-    title: "WordPress"
+    title: "WordPress",
 };
 
 const TerminalBadge = {
     image: Terminal,
-    title: "Terminal"
+    title: "Terminal",
 };
 
 const GitBadge = {
     image: Git,
-    title: "Git"
+    title: "Git",
 };
 
 const AccessibilityBadge = {
     image: Accessability,
-    title: "*Accessibility"
+    title: "*Accessibility",
 };
 
 const ResponsiveBadge = {
     image: Responsive,
-    title: "*Responsive Design"
+    title: "*Responsive Design",
 };
 
 const PerformanceBadge = {
     image: Performance,
-    title: "*Performance"
+    title: "*Performance",
 };
 
+const uhsSkills = [
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    JQueryBadge,
+    JSONBadge,
+    LiquidBadge,
+    ShopifyBadge,
+];
 
-export {
+const benavestSkills = [
+    HTMLBadge,
+    CSSBadge,
+    WordpressBadge
+];
+
+const portfolioSkills = [
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    ReactBadge,
+    NodeBadge,
+    TerminalBadge,
+    GitBadge,
+];
+
+const allSkills = [
     HTMLBadge,
     CSSBadge,
     JavaScriptBadge,
@@ -104,6 +129,13 @@ export {
     TerminalBadge,
     GitBadge,
     AccessibilityBadge,
+    PerformanceBadge,
     ResponsiveBadge,
-    PerformanceBadge
+];
+
+export {
+    uhsSkills,
+    benavestSkills,
+    portfolioSkills,
+    allSkills
 };

@@ -5,8 +5,8 @@ import "./SkillsContainerStyles.css";
 function SkillsContainer(props) {
     const skillsStyle = props.compact ? "skills-container--compact" : "skills-container";
     
-    function handleBadge(skill) {
-        return <SkillBadge image={skill.image} title={skill.title} compact={props.compact} />;
+    function handleBadge(skill, index) {
+        return <SkillBadge key={index} image={skill.image} title={skill.title} compact={props.compact} />;
     }
 
     return (

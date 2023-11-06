@@ -134,15 +134,14 @@
 @media (min-width: 1400px) {
     .content-section {
         position: relative;
-        min-height: 85vh;
+        min-height: 70vh;
         width: 100%;
     }
     
     .image__container {
         position: absolute;
-        top: 50%;
+        top: 0;
         left: 5%;
-        transform: translateY(-50%);
     }
     
     .content__image {
@@ -152,10 +151,9 @@
     .content__container {
         width: 45%;
         position: absolute;
-        top: 50%;
+        top: 5%;
         left: 45%;
         z-index: 9;
-        transform: translateY(-50%);
     }
     
     .content {

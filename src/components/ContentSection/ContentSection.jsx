@@ -3,14 +3,14 @@ import SkillsContainer from "../SkillsContainer/SkillsContainer";
 import "./ContentSectionStyles.css";
 
 function ContentSection(props) {
-    function addButtons(link) {
-        return <a className="links__button" href={link.link}>{link.name}</a>;
+    function addButtons(link, index) {
+        return <a key={index} className="links__button" href={link.link}>{link.name}</a>;
     }
     
     return (
         <div className="content-section">
             <div className="image__container">
-                <img className="content__image" src={props.image} />
+                <img alt={props.title} loading="lazy" className="content__image" src={props.image} />
             </div>
             <div className="content__container">
                 <div className="title__container">
