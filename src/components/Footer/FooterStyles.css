@@ -6,3 +6,9 @@
     padding: 25px;
     text-transform: uppercase;
 }
+
+@media (min-width: 2500px) {
+    .footer {
+        font-size: 22px;
+    }
+}

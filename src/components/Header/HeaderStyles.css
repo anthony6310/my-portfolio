@@ -1,4 +1,96 @@
 .hero-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hero-header h1 {
+    margin-bottom: 10vh;
+}
+
+.hero-header .caret {
+    animation: blink-caret 0.5s step-end infinite;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sub-header .caret {
+    display: none;
+}
+
+@keyframes blink-caret {
+    from, to { color: transparent }
+    50% { color: #728080 }
+}
+
+@media (min-width: 410px) {
+    .hero-header {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 750px) {
+    .hero-header {
+        font-size: 16px;
+    }
+
+    .sub-header {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .hero-header {
+        font-size: 12px;
+    }
+
+    .sub-header {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero-header h1 {
+        white-space: nowrap;
+    }
+
+    .sub-header {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .hero-header {
+        font-size: 18px;
+    }
+
+    .sub-header {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .hero-header {
+        font-size: 30px;
+    }
+
+    .sub-header {
+        font-size: 24px;
+    }
+}
+
+/*.hero-header {
     padding: 0 25px;
     display: flex;
     justify-content: center;
@@ -54,4 +146,4 @@
         font-size: 12px;
         margin-top: 15px;
     }
-}
+}*/

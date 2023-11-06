@@ -4,6 +4,33 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.skills-container--compact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@media (min-width: 1020px) {
+    .skills-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .skills-container {
+        width: 65%;
+    }
+}
+
+/*.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     max-width: 50%;
     margin: 0 auto;
 }
@@ -25,4 +52,4 @@
     .skills-container--compact {
         flex-wrap: wrap;
     }
-}
+}*/

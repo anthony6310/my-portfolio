@@ -4,6 +4,79 @@
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    margin: 10px;
+    background-color: #181a1b;
+    border-radius: 20px;
+}
+
+.skill-badge__container--compact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.skill-badge__image {
+    width: 130px;
+}
+
+.skill-badge__image--compact {
+    width: 80px;
+}
+
+.skill-badge__title {
+    font-family: 'Source Code Pro', monospace;
+}
+
+@media (min-width: 750px) {
+    .skill-badge__image {
+        width: 150px;
+    }
+    
+    .skill-badge__image--compact {
+        width: 90px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .skill-badge__image {
+        width: 100px;
+    }
+    
+    .skill-badge__image--compact {
+        width: 75px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .skill-badge__image {
+        width: 150px;
+    }
+
+    .skill-badge__image--compact {
+        width: 90px;
+    }
+}
+
+@media (min-width: 2500px) {
+    .skill-badge__image {
+        width: 200px;
+    }
+
+    .skill-badge__image--compact {
+        width: 150px;
+    }
+}
+
+/*.skill-badge__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
     margin: 15px;
     background-color: #181a1b;
     border-radius: 30px;
@@ -39,4 +112,4 @@
     .skill-badge__image--compact {
         max-width: 80px;
     }
-}
+}*/
