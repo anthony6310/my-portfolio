@@ -68,6 +68,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
     gap: 8px;
+    flex-direction: column;
 }
 
 .links__button {
@@ -81,6 +82,7 @@
     -webkit-transition: .1s;
     -o-transition: .1s;
     transition: .1s;
+    white-space: nowrap;
 }
 
 .links__button:hover {
@@ -184,6 +186,10 @@
 
     .content__title {
         font-size: 20px;
+    }
+
+    .links__container {
+        flex-direction: row;
     }
 
     .links__button {

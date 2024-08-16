@@ -92,6 +92,16 @@ const PerformanceBadge = {
     title: "*Performance",
 };
 
+const aroma360Skills = [
+    HTMLBadge,
+    CSSBadge,
+    JavaScriptBadge,
+    GitBadge,
+    JSONBadge,
+    LiquidBadge,
+    ShopifyBadge,
+];
+
 const uhsSkills = [
     HTMLBadge,
     CSSBadge,
@@ -140,5 +150,6 @@ export {
     uhsSkills,
     benavestSkills,
     portfolioSkills,
-    allSkills
+    allSkills,
+    aroma360Skills
 };
